@@ -11,4 +11,4 @@ READ:
 
 - *please dont use it for evil means.*
 - *always double check links you press*
-- *this is just for education*
+- *this is just for educational reasons*
