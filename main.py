@@ -54,12 +54,7 @@ server_socket = socket.socket()
 server_socket.bind(('0.0.0.0', 80))
 server_socket.listen(100)
 
-try:
-    with open('filename.pickle', 'rb') as handle:
-        pass_and_codes = pickle.load(handle)  # password: code
-except:
-    pass
-code = ""
+
 while True:
     rlist, wlist, xlist = select.select(open_client_sockets+[server_socket], open_client_sockets, [])
     for current_socket in rlist:
