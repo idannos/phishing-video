@@ -3,7 +3,7 @@ the code from the video
 
 TODO list:
 - Transfer the user straight to the facebook account inserted,
-- bluring the server IP- we want the user to think thats a legit facebook thing
+- bluring server's IP- we want the user to think thats a legit facebook thing
 
 
 READ:
